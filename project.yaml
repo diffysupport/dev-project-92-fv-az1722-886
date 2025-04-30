@@ -1,0 +1,30 @@
+basic:
+    name: 'Theo Price'
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - 'https://collins.info/maiores-culpa-odio-eum-quas'
+        - 'https://fisher.info/dolores-sint-animi-voluptatum-aspernatur-eum-beatae-qui-commodi.html'
+    monitoring:
+        days: {  }
+        type: ''
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
